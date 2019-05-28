@@ -5,9 +5,17 @@ def welcome
   puts "What to do? options"
   input = gets.chomp
   case
-  when input == "option 1"
-    do something
+  when input == "update bio"
+    update_bio
+  when input == "watch episode"
+    watch_episode
+  when input == "finish episode"
+    finish_episode
+  when input == "rate"
+    rate
+  when input == "most popular"
+    most_popular
   else
-    puts "Invalid input"
+    puts "Invalid input. Please try again."
   end
 end

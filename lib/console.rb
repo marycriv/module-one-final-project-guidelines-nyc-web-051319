@@ -18,14 +18,19 @@ class CommandLineInterface
     case input
     when "update bio"
       update_bio
+      puts "Success! Bio updated!"
     when input "watch episode"
       watch_episode
+      puts "Success! Episode watched!"
     when input "finish episode"
       finish_episode
+      puts "Success! Episode finished!"
     when input "rate"
       rate
+      puts "Success! Episode rated!"
     when input "most popular"
       most_popular
+      puts "Operation complete."
     else
       puts "Invalid input. Please try again."
     end

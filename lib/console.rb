@@ -32,5 +32,5 @@ class CommandLineInterface
     end
   end
 
-  
+
 end #end class

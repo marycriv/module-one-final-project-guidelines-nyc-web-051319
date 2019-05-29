@@ -13,6 +13,4 @@ Simply fork and clone this repository to begin using TV Tracker in the command l
 
 
 ## Credits
-Will (@baintonw) & Mary (@marycriv)
-
-Created for Module 1 final project at Flatiron School.
+Created by Will (@baintonw) & Mary (@marycriv) for the Module 1 final project at Flatiron School.
